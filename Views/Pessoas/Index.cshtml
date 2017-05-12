@@ -1,0 +1,37 @@
+﻿@model IEnumerable<AppMvcControleFinanceiro.Entities.Pessoa>
+
+@{
+    ViewData["Title"] = "Pessoas";
+}
+
+<h2>Pessoas</h2>
+
+<p>
+    <a class="btn btn-info" href="Pessoas/Create" role="button">
+        <span class="glyphicon glyphicon-user" aria-hidden="true"></span>		
+	    Novo Usuário
+	</a>
+
+</p>
+
+
+@(Html
+    .Grid(Model)
+    .Build(columns =>
+    {
+        columns.Add(model => model.Id).Titled("Id");
+        columns.Add(model => model.Nome).Titled("Nome");
+        columns.Add(model => model.Sobrenome).Titled("Sobrenome");
+        columns.Add(model => model.Cpf).Titled("CPF");
+        columns.Add(model => model.DataNascimento).Titled("Data de Nascimento");
+        columns.Add(model => model.Email).Titled("E-mail");
+        columns.Add(model => @Html.ActionLink("Details", "Details", new { id=model.Id }, new {@class="btn btn-default"}));
+        columns.Add(model => @Html.ActionLink("Edit", "Edit", new { id=model.Id }, new {@class="btn btn-info"}));
+        columns.Add(model => @Html.ActionLink("Delete", "Delete", new { id=model.Id }, new {@class="btn btn-danger"}));
+    })
+    .Filterable()
+    .Sortable()
+    .Pageable()
+    .Empty("Não foram encontrados registros.")
+    .Css("table-bordered table-condensed")
+)
