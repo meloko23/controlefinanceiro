@@ -6,10 +6,11 @@ namespace AppMvcControleFinanceiro.Entities
 {
     public class Pessoa : IPessoa
     {
+        [Key]
         public int Id { get; set; }
         public string Nome { get; set; }
         public string Sobrenome { get; set; }
-        public string Cpf { get; set; }
+		public string Cpf { get; set; }
         [DisplayName("E-mail")]
         public string Email { get; set; }
         [DisplayName("Data de Nascimento")]

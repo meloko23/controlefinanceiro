@@ -1,7 +1,9 @@
 ﻿<Properties StartupConfiguration="{3B788600-E996-463B-911E-14C3554D2571}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="AppMvcControleFinanceiro Status">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Context/ControleFinanceiroContext.cs">
     <Files>
-      <File FileName="AppMvcControleFinanceiro Status" />
+      <File FileName="Controllers/PessoasController.cs" Line="1" Column="1" />
+      <File FileName="Entities/Pessoa.cs" Line="12" Column="46" />
+      <File FileName="Context/ControleFinanceiroContext.cs" Line="17" Column="13" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
