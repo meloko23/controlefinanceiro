@@ -1,5 +1,9 @@
 ﻿<Properties StartupConfiguration="{3B788600-E996-463B-911E-14C3554D2571}|Default">
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="AppMvcControleFinanceiro Status">
+    <Files>
+      <File FileName="AppMvcControleFinanceiro Status" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

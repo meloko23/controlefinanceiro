@@ -18,17 +18,17 @@ namespace AppMvcControleFinanceiro.Context
 			{
                 new Pessoa { 
                     Nome = "Fernando José", 
-                    Sobrenome = "Silvestre de Faria Filho", 
-                    Cpf="00241152151", 
-                    DataNascimento = new System.DateTime(1983,11,2), 
-                    Email = "meloko23@gmail.com" 
+                    Sobrenome = "Cordeiro", 
+                    Cpf="99999999999", 
+                    DataNascimento = new System.DateTime(1983,12,7), 
+                    Email = "emailTeste1@gmail.com" 
                 } ,
 				new Pessoa {
 					Nome = "Larissa",
-					Sobrenome = "de Lima Cordeiro de Faria",
-					Cpf="01583680101",
-					DataNascimento = new System.DateTime(1985,8,15),
-					Email = "larissa.lima.cordeiro@gmail.com"
+					Sobrenome = "de Faria",
+					Cpf="77777777777",
+					DataNascimento = new System.DateTime(1985,11,20),
+					Email = "emailTeste2@gmail.com"
 				}
 			};
 			foreach (Pessoa pessoa in pessoas)
